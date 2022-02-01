@@ -1,4 +1,3 @@
-import styles from "../styles/estoque.module.css"
 import Estoque from "../component/Estoque"
 import MenuEstoque from "../component/MenuE";
 
