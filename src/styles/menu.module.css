@@ -1,0 +1,33 @@
+.menu{
+    margin: 0;
+    width:100%;
+}
+
+.imagem{
+    width: 20%;
+    min-width: 150px;
+    margin: 0;
+    float: left;
+}
+
+.navegation{
+    margin: 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.titulo{
+    margin: 0;
+}
+.navegation a li{
+    text-decoration: none;
+    list-style: none;
+    padding: 1vw;
+}
+
+.navegation a :hover{
+    background-image: linear-gradient(#4c9ab8, #034761);
+    color: #ffffff;
+}

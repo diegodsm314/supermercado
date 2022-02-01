@@ -1,0 +1,26 @@
+.main{
+  text-align: center;
+}
+
+.select{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button{
+  color: #ffffff;
+  background-color: #034761;
+  padding: 3vw 8vw 3vw;
+  margin: 1vw;
+  font-size: 200%;
+  border: 2px #000000 solid;
+  border-radius: 5px;
+  transition: all .3s ease-in;
+}
+
+.button:hover{
+  background-color: #4c9ab8;
+  transform: scale(1.1);
+}
