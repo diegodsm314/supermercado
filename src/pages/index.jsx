@@ -7,7 +7,7 @@ export default function Home() {
       <div className={styles.main}>
         <Image src={require("../../public/images/rdmIcon.png")} alt="8==D"/>
         <div className={styles.select}>   
-          <a href="#"><div className={styles.button}>Sistema Caixa</div></a>
+          <a href="/caixa"><div className={styles.button}>Sistema Caixa</div></a>
           <a href="/estoque"><div className={styles.button}>Sistema Estoque</div></a>
         </div>
       </div>

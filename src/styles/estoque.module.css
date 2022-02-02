@@ -1,0 +1,35 @@
+.estoque{
+    text-align: center;
+}
+
+.cadastro{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .5vw;
+}
+
+.A{
+    width: 49%;
+}
+
+.B{
+    width: 49%;
+}
+
+.A input, .B input, .C input{
+    font-size: 200%;
+    width: 100%;
+}
+
+.D select{
+    font-size: 200%;
+}
