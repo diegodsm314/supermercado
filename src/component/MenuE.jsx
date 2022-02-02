@@ -1,11 +1,11 @@
 import styles from "../styles/menu.module.css"
 import Image from "next/image";
 
-export default function MenuEstoque(){
-    return(
+export default function MenuEstoque() {
+    return (
         <div className={styles.menu}>
             <div className={styles.imagem}>
-                <Image src={require("../../public/images/rdmIcon.png")} alt="8==D"/>
+                <Image src={require("../../public/images/rdmIcon.png")} alt="8==D-" />
             </div>
             <h1 className={styles.titulo}>Sistema RDM</h1>
             <hr />
