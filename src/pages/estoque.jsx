@@ -2,6 +2,7 @@ import Consulta from "../component/Consulta";
 import Estoque from "../component/Estoque"
 import MenuEstoque from "../component/MenuE";
 import styles from "../styles/estoque.module.css"
+import styles2 from "../styles/diversos.module.css"
 
 export default function estoquePage(){
     return(
@@ -19,6 +20,11 @@ export default function estoquePage(){
             <hr />    
         </div>
         <Estoque/>
+        <div className={styles.chamado}>
+            <hr />
+            <h2 className={styles.titulo} id="cadastro">Cadastrar produto</h2>
+            <hr />    
+        </div>
     </>
     );
 }
