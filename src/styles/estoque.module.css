@@ -1,5 +1,10 @@
 .estoque{
     text-align: center;
+    margin-top: 10vw;
+}
+
+.consulta{
+    text-align: center;
 }
 
 .cadastro{
@@ -7,29 +12,71 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .formulario{
-    width:90%;
+    width:100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: .5vw;
+    padding: 3vw 8vw;
+    border: 1px #4C9ab8 solid;
 }
 
-.A{
+.A, .B{
     width: 49%;
+
 }
 
-.B{
-    width: 49%;
+.E{
+    width: 24%;
 }
 
-.A input, .B input, .C input{
+.A input, .B input, .C input, .E input, .G input, .H input{
     font-size: 200%;
     width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px #4C9ab8 solid;
+    transition: all .2s ease-in-out;
 }
 
-.D select{
+.D select, .I select{
     font-size: 200%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px #4C9ab8 solid;
+    color: #4C9ab8;
+}
+
+.butt{
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    background-color: #ffffff;
+    border: 3px #4C9ab8 solid;
+    border-radius: 8px;
+    margin: 6vw 3vw 1vw;
+    transition: all .2s ease-in-out;
+}
+
+
+.butt:hover{
+    background-color: #034761;
+    color: #ffffff;
+    border: 3px #4C9ab8 solid;
+}
+
+.A input:focus, .B input:focus, .C input:focus, .E input:focus, .G input:focus, .H input:focus{
+    background-color: #4C9ab8;
+    color: #ffffff;
+    border: 1px #034761 solid;
+}
+
+.A input::placeholder, .B input::placeholder, .C input::placeholder, .E input::placeholder, .G input::placeholder, .H input::placeholder{
+    color: #4C9ab8;
+}
+
+.titulo, .G{
+    width: 100%;
 }

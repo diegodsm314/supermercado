@@ -12,7 +12,7 @@ export default function MenuEstoque() {
             <nav className={styles.navegation}>
                 <a href="#"><li>Principal</li></a> {/*Erro ignoravel*/}
                 <a href="#"><li>Consultar produto</li></a>
-                <a href="#"><li>Cadastrar novo produto</li></a>
+                <a href="#cadastro"><li>Cadastrar novo produto</li></a>
                 <a href="#"><li>Abrir chamado</li></a>
                 <a href="#"><li>Informações</li></a>
             </nav>
