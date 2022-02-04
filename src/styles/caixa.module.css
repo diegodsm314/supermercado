@@ -1,0 +1,42 @@
+.main{
+    margin-top: 13vh;
+    display: flex;
+    max-height: 87vh;
+}
+.left{
+    width:65%;
+    display: flex;
+    flex-direction: column;
+    border: 1px #4c9ab8 solid;
+}
+
+.right{
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    border: 1px #4c9ab8 solid;
+    transition: all .2s ease-in-out;
+}
+
+.lista{
+    display:flex;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+    height: 80vh;
+}
+
+.indice{
+    border-top: 1px #4c9ab8 solid;
+}
+
+.indice p {
+    text-align: center;
+    word-spacing: 2vw;
+}
+
+.total{
+    font-size: 200%;
+}
+.total hr{
+    color: #034761;
+}

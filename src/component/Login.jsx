@@ -19,19 +19,20 @@ export default function Login(){
                 </div>
                 <h4>Senha</h4>
                 <div>
-                    <input type="password" name="passw" id="passw" className={styles.password} onChange={evento => setPassword(evento.target.value)} />
+                    <input type="password" value={password} name="passw" id="passw" className={styles.password} onChange={evento => setPassword(evento.target.value)} />
                 </div>
                 <div className={styles.divButton}>
-                    <button type="submit" onClick={pass => {
+                    <button type="submit" onClick={ () => {
                         users.forEach(item => {
                             if (user == item) {
-                                if (pass == senha) {
-                                    setLiberado(true);
+                                if (password == senha) {
+                                    setLiberado(true);  //deve se para aqui, de forma codicional e a div.sucess deve ser printada fora do button :D
                                 }
                             }
                         });
+                        console.log(liberado);
                         if (liberado) {
-                            setLiberado(false);
+                            setLiberado(false); 
                             return (
                                 <div className={styles.sucess}>
                                     <p>Login efetuado com sucesso</p>
