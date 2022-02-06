@@ -13,7 +13,7 @@ export default function MenuCaixa(){
                 <a href="#"><li>Principal [F10]</li></a> {/*Erro ignoravel*/}
                 <a href="#"><li>Consulta [F2]</li></a>
                 <a href="#"><li>Cancelamento [F3]</li></a>
-                <a href="#"><li>Abrir chamado [F11]</li></a>
+                <a href="#"><li>Pagar [F11]</li></a>
                 <a href="#"><li>Informações [F12]</li></a>
             </nav>
         </div>
