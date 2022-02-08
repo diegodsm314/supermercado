@@ -86,7 +86,7 @@ export default function Caixa(){
                     <div className={styles.quant}>{`${quant} x ${preco}`} </div>
                     <div className={styles.valor}>R${(quant*preco).toFixed(2)}</div>
                     <div className={styles.codigo}>
-                        <input type="number" name="codBar" id="codBar" placeholder="Entre com o codigo" value={codBar} onChange={evento => {setCodBar(evento.target.value);}} />
+                        <input type="number" name="codBar" id="codBar" placeholder="Entrada de dados" value={codBar} onChange={evento => {setCodBar(evento.target.value);}} />
                     </div>
                     <button onClick={addProduto}>Teste</button>
                 </div>
