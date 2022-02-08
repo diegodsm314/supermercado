@@ -5,12 +5,13 @@ export default function Login(){
     const [user,setUser] = useState(123456)
     const [password,setPassword] = useState("");
     const [liberado,setLiberado] = useState(false)
+    const[it,setIt] = useState(true)
 
     let users = ["123412","123456"]
     const senha = "123456789012";
 
     return(
-        <>
+        <div className={it ? styles.noit : styles.doit}>
             <div className={styles.login}>
                 <h4>Efetue o login para continuar</h4>
                 <div>
@@ -26,6 +27,7 @@ export default function Login(){
                         users.forEach(item => {
                             if (user == item) {
                                 if (password == senha) {
+                                    setIt(!it)
                                     setLiberado(true);  //deve se para aqui, de forma codicional e a div.sucess deve ser printada fora do button :D
                                 }
                             }
@@ -50,7 +52,7 @@ export default function Login(){
                 </div>
                 
             </div>
-        </>
+        </div>
 
     );
 }

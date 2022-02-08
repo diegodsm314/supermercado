@@ -1,3 +1,11 @@
+.doit{
+    display: flex;
+}
+
+.noit{
+    display: none;
+}
+
 .login{
     width: 100%;
     position:fixed;
@@ -62,6 +70,44 @@
 }
 
 .pagamento{
-    width:100%;
-    
+    width: 100%;
+    position:fixed;
+    background-color: rgba(76, 154, 184, 0.5);
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 100%;
+    text-align: center;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input, .formulario select{
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    text-align: center;
+}
+
+.formulario button{
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+    background-color: #ffffff;
+    border: 3px #4C9ab8 solid;
+    border-radius: 8px;
+    margin: 6vw;
+    transition: all .2s ease-in-out;
+}
+
+
+.formulario button:hover{
+    background-color: #034761;
+    color: #ffffff;
+    border: 3px #4C9ab8 solid;
 }
